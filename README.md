@@ -5,5 +5,6 @@ In this notebook, I have started with data preprocessing, in which I have proces
 After that, I have done basic eda, starting with descriptive statistics and finally concluded it with correlation matrix.
 While building a model, initailly I dropped 3 highly correlated variables and the origin column and ran the linear regression with two variables. To immprove the overall score I also ran it with 5-fold cv.
 Later, I added all the 3 correlated variable one at a time, to check the overall improvement in the model score.
-Finally, I encoded origin as dummy varaibles and used linear regression to build the model. This method gave the highest r-square and lowest mse.
+Next, I encoded origin as dummy varaibles and used linear regression to build the model. This method gave the highest r-square and lowest mse.
+In the updated version, I have used Lasso regression to identify the best feature.
 I'm still learning and new in this field. Looking forward to valuable suggestion to improve my understanding. Thankyou.
